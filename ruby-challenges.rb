@@ -29,6 +29,9 @@ p odd_even num1
 p odd_even num2
 p odd_even num3
 
+# Outputs: "7 is odd"
+#          "42 is even
+#          "221 is odd"
 
 
 # -------------------2) Create a method that takes in a string and removes all the vowels from the string. Use the test variables provided. HINT: Check out this resource: https://ruby-doc.org/core-2.6/String.html#method-i-delete
@@ -51,6 +54,10 @@ end
 p no_vowels album1
 p no_vowels album2
 p no_vowels album3
+
+# Outputs:  "Rbbr Sl"
+#           "Sgt Pppr"
+#           "bby Rd"
 
 
 # -------------------3) Create a method that takes in a string and checks if the string is a palindrome. A palindrome is the same word spelled forward or backward. Use the test variables provided.
@@ -82,3 +89,7 @@ end
 p palin_test palindrome_tester1
 p palin_test palindrome_tester2
 p palin_test palindrome_tester3
+
+# Outputs: "Racecar is a palindrome"
+#          "LEARN is not a palindrome"
+#          "Rotator is a palindrome"
